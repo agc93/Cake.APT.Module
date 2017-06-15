@@ -1,0 +1,141 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Cake.APT.Module
+  name: Cake.APT.Module
+  href: api/Cake.APT.Module.html
+  commentId: N:Cake.APT.Module
+  fullName: Cake.APT.Module
+  nameWithType: Cake.APT.Module
+- uid: Cake.APT.Module.APTContentResolver
+  name: APTContentResolver
+  href: api/Cake.APT.Module.APTContentResolver.html
+  commentId: T:Cake.APT.Module.APTContentResolver
+  fullName: Cake.APT.Module.APTContentResolver
+  nameWithType: APTContentResolver
+- uid: Cake.APT.Module.APTContentResolver.#ctor(Cake.Core.IO.IFileSystem,Cake.Core.ICakeEnvironment,Cake.Core.IO.IGlobber)
+  name: APTContentResolver(IFileSystem, ICakeEnvironment, IGlobber)
+  href: api/Cake.APT.Module.APTContentResolver.html#Cake_APT_Module_APTContentResolver__ctor_Cake_Core_IO_IFileSystem_Cake_Core_ICakeEnvironment_Cake_Core_IO_IGlobber_
+  commentId: M:Cake.APT.Module.APTContentResolver.#ctor(Cake.Core.IO.IFileSystem,Cake.Core.ICakeEnvironment,Cake.Core.IO.IGlobber)
+  fullName: Cake.APT.Module.APTContentResolver.APTContentResolver(Cake.Core.IO.IFileSystem, Cake.Core.ICakeEnvironment, Cake.Core.IO.IGlobber)
+  nameWithType: APTContentResolver.APTContentResolver(IFileSystem, ICakeEnvironment, IGlobber)
+- uid: Cake.APT.Module.APTContentResolver.#ctor*
+  name: APTContentResolver
+  href: api/Cake.APT.Module.APTContentResolver.html#Cake_APT_Module_APTContentResolver__ctor_
+  commentId: Overload:Cake.APT.Module.APTContentResolver.#ctor
+  fullName: Cake.APT.Module.APTContentResolver.APTContentResolver
+  nameWithType: APTContentResolver.APTContentResolver
+- uid: Cake.APT.Module.APTContentResolver.GetFiles(Cake.Core.Packaging.PackageReference,Cake.Core.Packaging.PackageType)
+  name: GetFiles(PackageReference, PackageType)
+  href: api/Cake.APT.Module.APTContentResolver.html#Cake_APT_Module_APTContentResolver_GetFiles_Cake_Core_Packaging_PackageReference_Cake_Core_Packaging_PackageType_
+  commentId: M:Cake.APT.Module.APTContentResolver.GetFiles(Cake.Core.Packaging.PackageReference,Cake.Core.Packaging.PackageType)
+  fullName: Cake.APT.Module.APTContentResolver.GetFiles(Cake.Core.Packaging.PackageReference, Cake.Core.Packaging.PackageType)
+  nameWithType: APTContentResolver.GetFiles(PackageReference, PackageType)
+- uid: Cake.APT.Module.APTContentResolver.GetFiles*
+  name: GetFiles
+  href: api/Cake.APT.Module.APTContentResolver.html#Cake_APT_Module_APTContentResolver_GetFiles_
+  commentId: Overload:Cake.APT.Module.APTContentResolver.GetFiles
+  fullName: Cake.APT.Module.APTContentResolver.GetFiles
+  nameWithType: APTContentResolver.GetFiles
+- uid: Cake.APT.Module.APTModule
+  name: APTModule
+  href: api/Cake.APT.Module.APTModule.html
+  commentId: T:Cake.APT.Module.APTModule
+  fullName: Cake.APT.Module.APTModule
+  nameWithType: APTModule
+- uid: Cake.APT.Module.APTModule.Register(Cake.Core.Composition.ICakeContainerRegistrar)
+  name: Register(ICakeContainerRegistrar)
+  href: api/Cake.APT.Module.APTModule.html#Cake_APT_Module_APTModule_Register_Cake_Core_Composition_ICakeContainerRegistrar_
+  commentId: M:Cake.APT.Module.APTModule.Register(Cake.Core.Composition.ICakeContainerRegistrar)
+  fullName: Cake.APT.Module.APTModule.Register(Cake.Core.Composition.ICakeContainerRegistrar)
+  nameWithType: APTModule.Register(ICakeContainerRegistrar)
+- uid: Cake.APT.Module.APTModule.Register*
+  name: Register
+  href: api/Cake.APT.Module.APTModule.html#Cake_APT_Module_APTModule_Register_
+  commentId: Overload:Cake.APT.Module.APTModule.Register
+  fullName: Cake.APT.Module.APTModule.Register
+  nameWithType: APTModule.Register
+- uid: Cake.APT.Module.APTPackageInstaller
+  name: APTPackageInstaller
+  href: api/Cake.APT.Module.APTPackageInstaller.html
+  commentId: T:Cake.APT.Module.APTPackageInstaller
+  fullName: Cake.APT.Module.APTPackageInstaller
+  nameWithType: APTPackageInstaller
+- uid: Cake.APT.Module.APTPackageInstaller.#ctor(Cake.Core.ICakeEnvironment,Cake.Core.IO.IProcessRunner,Cake.Core.Diagnostics.ICakeLog,Cake.APT.Module.IAPTContentResolver,Cake.Core.Configuration.ICakeConfiguration)
+  name: APTPackageInstaller(ICakeEnvironment, IProcessRunner, ICakeLog, IAPTContentResolver, ICakeConfiguration)
+  href: api/Cake.APT.Module.APTPackageInstaller.html#Cake_APT_Module_APTPackageInstaller__ctor_Cake_Core_ICakeEnvironment_Cake_Core_IO_IProcessRunner_Cake_Core_Diagnostics_ICakeLog_Cake_APT_Module_IAPTContentResolver_Cake_Core_Configuration_ICakeConfiguration_
+  commentId: M:Cake.APT.Module.APTPackageInstaller.#ctor(Cake.Core.ICakeEnvironment,Cake.Core.IO.IProcessRunner,Cake.Core.Diagnostics.ICakeLog,Cake.APT.Module.IAPTContentResolver,Cake.Core.Configuration.ICakeConfiguration)
+  fullName: Cake.APT.Module.APTPackageInstaller.APTPackageInstaller(Cake.Core.ICakeEnvironment, Cake.Core.IO.IProcessRunner, Cake.Core.Diagnostics.ICakeLog, Cake.APT.Module.IAPTContentResolver, Cake.Core.Configuration.ICakeConfiguration)
+  nameWithType: APTPackageInstaller.APTPackageInstaller(ICakeEnvironment, IProcessRunner, ICakeLog, IAPTContentResolver, ICakeConfiguration)
+- uid: Cake.APT.Module.APTPackageInstaller.#ctor*
+  name: APTPackageInstaller
+  href: api/Cake.APT.Module.APTPackageInstaller.html#Cake_APT_Module_APTPackageInstaller__ctor_
+  commentId: Overload:Cake.APT.Module.APTPackageInstaller.#ctor
+  fullName: Cake.APT.Module.APTPackageInstaller.APTPackageInstaller
+  nameWithType: APTPackageInstaller.APTPackageInstaller
+- uid: Cake.APT.Module.APTPackageInstaller.CanInstall(Cake.Core.Packaging.PackageReference,Cake.Core.Packaging.PackageType)
+  name: CanInstall(PackageReference, PackageType)
+  href: api/Cake.APT.Module.APTPackageInstaller.html#Cake_APT_Module_APTPackageInstaller_CanInstall_Cake_Core_Packaging_PackageReference_Cake_Core_Packaging_PackageType_
+  commentId: M:Cake.APT.Module.APTPackageInstaller.CanInstall(Cake.Core.Packaging.PackageReference,Cake.Core.Packaging.PackageType)
+  fullName: Cake.APT.Module.APTPackageInstaller.CanInstall(Cake.Core.Packaging.PackageReference, Cake.Core.Packaging.PackageType)
+  nameWithType: APTPackageInstaller.CanInstall(PackageReference, PackageType)
+- uid: Cake.APT.Module.APTPackageInstaller.CanInstall*
+  name: CanInstall
+  href: api/Cake.APT.Module.APTPackageInstaller.html#Cake_APT_Module_APTPackageInstaller_CanInstall_
+  commentId: Overload:Cake.APT.Module.APTPackageInstaller.CanInstall
+  fullName: Cake.APT.Module.APTPackageInstaller.CanInstall
+  nameWithType: APTPackageInstaller.CanInstall
+- uid: Cake.APT.Module.APTPackageInstaller.GetArguments(Cake.Core.Packaging.PackageReference,Cake.Core.Configuration.ICakeConfiguration)
+  name: GetArguments(PackageReference, ICakeConfiguration)
+  href: api/Cake.APT.Module.APTPackageInstaller.html#Cake_APT_Module_APTPackageInstaller_GetArguments_Cake_Core_Packaging_PackageReference_Cake_Core_Configuration_ICakeConfiguration_
+  commentId: M:Cake.APT.Module.APTPackageInstaller.GetArguments(Cake.Core.Packaging.PackageReference,Cake.Core.Configuration.ICakeConfiguration)
+  fullName: Cake.APT.Module.APTPackageInstaller.GetArguments(Cake.Core.Packaging.PackageReference, Cake.Core.Configuration.ICakeConfiguration)
+  nameWithType: APTPackageInstaller.GetArguments(PackageReference, ICakeConfiguration)
+- uid: Cake.APT.Module.APTPackageInstaller.GetArguments*
+  name: GetArguments
+  href: api/Cake.APT.Module.APTPackageInstaller.html#Cake_APT_Module_APTPackageInstaller_GetArguments_
+  commentId: Overload:Cake.APT.Module.APTPackageInstaller.GetArguments
+  fullName: Cake.APT.Module.APTPackageInstaller.GetArguments
+  nameWithType: APTPackageInstaller.GetArguments
+- uid: Cake.APT.Module.APTPackageInstaller.Install(Cake.Core.Packaging.PackageReference,Cake.Core.Packaging.PackageType,Cake.Core.IO.DirectoryPath)
+  name: Install(PackageReference, PackageType, DirectoryPath)
+  href: api/Cake.APT.Module.APTPackageInstaller.html#Cake_APT_Module_APTPackageInstaller_Install_Cake_Core_Packaging_PackageReference_Cake_Core_Packaging_PackageType_Cake_Core_IO_DirectoryPath_
+  commentId: M:Cake.APT.Module.APTPackageInstaller.Install(Cake.Core.Packaging.PackageReference,Cake.Core.Packaging.PackageType,Cake.Core.IO.DirectoryPath)
+  fullName: Cake.APT.Module.APTPackageInstaller.Install(Cake.Core.Packaging.PackageReference, Cake.Core.Packaging.PackageType, Cake.Core.IO.DirectoryPath)
+  nameWithType: APTPackageInstaller.Install(PackageReference, PackageType, DirectoryPath)
+- uid: Cake.APT.Module.APTPackageInstaller.Install*
+  name: Install
+  href: api/Cake.APT.Module.APTPackageInstaller.html#Cake_APT_Module_APTPackageInstaller_Install_
+  commentId: Overload:Cake.APT.Module.APTPackageInstaller.Install
+  fullName: Cake.APT.Module.APTPackageInstaller.Install
+  nameWithType: APTPackageInstaller.Install
+- uid: Cake.APT.Module.Constants
+  name: Constants
+  href: api/Cake.APT.Module.Constants.html
+  commentId: T:Cake.APT.Module.Constants
+  fullName: Cake.APT.Module.Constants
+  nameWithType: Constants
+- uid: Cake.APT.Module.Extensions
+  name: Extensions
+  href: api/Cake.APT.Module.Extensions.html
+  commentId: T:Cake.APT.Module.Extensions
+  fullName: Cake.APT.Module.Extensions
+  nameWithType: Extensions
+- uid: Cake.APT.Module.IAPTContentResolver
+  name: IAPTContentResolver
+  href: api/Cake.APT.Module.IAPTContentResolver.html
+  commentId: T:Cake.APT.Module.IAPTContentResolver
+  fullName: Cake.APT.Module.IAPTContentResolver
+  nameWithType: IAPTContentResolver
+- uid: Cake.APT.Module.IAPTContentResolver.GetFiles(Cake.Core.Packaging.PackageReference,Cake.Core.Packaging.PackageType)
+  name: GetFiles(PackageReference, PackageType)
+  href: api/Cake.APT.Module.IAPTContentResolver.html#Cake_APT_Module_IAPTContentResolver_GetFiles_Cake_Core_Packaging_PackageReference_Cake_Core_Packaging_PackageType_
+  commentId: M:Cake.APT.Module.IAPTContentResolver.GetFiles(Cake.Core.Packaging.PackageReference,Cake.Core.Packaging.PackageType)
+  fullName: Cake.APT.Module.IAPTContentResolver.GetFiles(Cake.Core.Packaging.PackageReference, Cake.Core.Packaging.PackageType)
+  nameWithType: IAPTContentResolver.GetFiles(PackageReference, PackageType)
+- uid: Cake.APT.Module.IAPTContentResolver.GetFiles*
+  name: GetFiles
+  href: api/Cake.APT.Module.IAPTContentResolver.html#Cake_APT_Module_IAPTContentResolver_GetFiles_
+  commentId: Overload:Cake.APT.Module.IAPTContentResolver.GetFiles
+  fullName: Cake.APT.Module.IAPTContentResolver.GetFiles
+  nameWithType: IAPTContentResolver.GetFiles
