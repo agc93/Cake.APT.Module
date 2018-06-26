@@ -9,7 +9,7 @@
 
 var target = Argument("target", "Default");
 var configuration = Argument("configuration", "Release");
-var frameworkTargets = Argument("frameworks", "netstandard1.6,net45");
+var frameworkTargets = Argument("frameworks", "netstandard2.0");
 
 ///////////////////////////////////////////////////////////////////////////////
 // GLOBAL VARIABLES
