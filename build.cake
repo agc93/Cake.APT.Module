@@ -1,6 +1,6 @@
 #tool "nuget:?package=GitVersion.CommandLine"
 #load "helpers.cake"
-#tool nuget:?package=docfx.console
+#tool nuget:?package=docfx.console&version=2.33.2
 #addin nuget:?package=Cake.DocFx
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -9,7 +9,7 @@
 
 var target = Argument("target", "Default");
 var configuration = Argument("configuration", "Release");
-var frameworkTargets = Argument("frameworks", "netstandard1.6,net45");
+var frameworkTargets = Argument("frameworks", "netstandard2.0");
 
 ///////////////////////////////////////////////////////////////////////////////
 // GLOBAL VARIABLES
@@ -152,7 +152,7 @@ Task("Pack")
             Configuration = configuration,
             OutputDirectory = artifacts + "/package/",
             NoBuild = true,
-            Verbose = false,
+            Verbosity = DotNetCoreVerbosity.Detailed,
             ArgumentCustomization = args => args
                 .Append("--include-symbols --include-source")
         });
