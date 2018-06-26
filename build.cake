@@ -1,6 +1,6 @@
 #tool "nuget:?package=GitVersion.CommandLine"
 #load "helpers.cake"
-#tool nuget:?package=docfx.console
+#tool nuget:?package=docfx.console&version=2.33.2
 #addin nuget:?package=Cake.DocFx
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -152,7 +152,7 @@ Task("Pack")
             Configuration = configuration,
             OutputDirectory = artifacts + "/package/",
             NoBuild = true,
-            Verbose = false,
+            Verbosity = DotNetCoreVerbosity.Detailed,
             ArgumentCustomization = args => args
                 .Append("--include-symbols --include-source")
         });
